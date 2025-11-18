@@ -57,37 +57,27 @@ Anchor ID	Coordinates (m)
 <img width="666" height="386" alt="image (6)" src="https://github.com/user-attachments/assets/2633ea2f-c5b5-4350-91a6-dd2f354e2c62" />
 Figure 1: Visualization of how distance data collected using UWB modules is gathered
 
+
 A simulated unmanned vehicle moves with:
 
 -Random speed ∈ [0.1, 1.5] m/s
 -Random heading (0–2π)
 -Perfectly elastic boundary reflections
 -Continuous velocity segments
-
-At each burst, 2–6 anchors provide UWB range measurements with a timestamp offset.
+-At each burst, 2–6 anchors provide UWB range measurements with a timestamp offset.
 
 ## 3 Dataset Construction (Windowing Approach)
 
 For training:
 
-Each sample consists of 10 consecutive measurements
-
-Each measurement includes:
-
-[one-hot anchor_id (6 dims), normalized distance, delta_t]
-
-
-Total input dimension = 8
-
-Output = next state:
-
-[x, y, vx, vy]
+-Each measurement includes: [one-hot anchor_id (6 dims), normalized distance, delta_t]
+-Total input dimension = 8
+-Output = next state: [x, y, vx, vy]
 
 Final shapes:
 
-Input windows: (77,507 × 10 × 8)
-
-Targets: (77,507 × 4)
+-Input windows: (77,507 × 10 × 8)
+-Targets: (77,507 × 4)
 
 This makes the model learn time dependencies in the motion.
 
@@ -112,7 +102,7 @@ Figure 2: Scaled Position Estimation for the “I” Trajectory
 
 
 <img width="575" height="506" alt="notion_2" src="https://github.com/user-attachments/assets/9d123b41-27dd-4ed8-bdc5-253a30ee6ab5" />
-Figure 2:Kalman Filter Output for the “I” Trajectory
+Figure 3: Kalman Filter Output for the “I” Trajectory
 
 ### Scenario U (Real Data – “U” Route)
 
