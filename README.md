@@ -1,4 +1,4 @@
-<img width="666" height="386" alt="image" src="https://github.com/user-attachments/assets/cc5f1aca-adfe-4479-9207-965d1892b11f" /># 🚀 Estimation-of-Position-and-Velocity-of-Unmanned-Vehicles-Using-UWB-Technology-with-Deep-Learning
+# 🚀 Estimation-of-Position-and-Velocity-of-Unmanned-Vehicles-Using-UWB-Technology-with-Deep-Learning
 Deep learning based position and velocity estimation for unmanned vehicles using UWB distance measurements, featuring RNN modeling, synthetic data simulation, and Kalman Filter comparison.
 
 Estimation of Position and Velocity of Unmanned Vehicles Using UWB Technology with Deep Learning
@@ -47,7 +47,7 @@ Anchor ID	Coordinates (m)
 
 
 <img width="666" height="386" alt="image (6)" src="https://github.com/user-attachments/assets/2633ea2f-c5b5-4350-91a6-dd2f354e2c62" />
-
+Figure 1: Visualization of how distance data collected using UWB modules is gathered
 
 A simulated unmanned vehicle moves with:
 
