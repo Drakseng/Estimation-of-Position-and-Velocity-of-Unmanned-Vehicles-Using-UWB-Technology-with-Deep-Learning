@@ -105,8 +105,11 @@ This makes the model learn time dependencies in the motion.
 ## 4. Model Architecture 
 
 -2-layer LSTM
+
 -Hidden size: 64
+
 -Optimizer: Adam (1e-3)
+
 -Loss: MSE
 
 Training for 20 epochs reduces loss from 0.039 → 0.009.
