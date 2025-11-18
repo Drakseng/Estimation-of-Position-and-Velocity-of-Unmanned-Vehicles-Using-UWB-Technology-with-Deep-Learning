@@ -61,9 +61,13 @@ Figure 1: Visualization of how distance data collected using UWB modules is gath
 A simulated unmanned vehicle moves with:
 
 -Random speed ∈ [0.1, 1.5] m/s
+
 -Random heading (0–2π)
+
 -Perfectly elastic boundary reflections
+
 -Continuous velocity segments
+
 -At each burst, 2–6 anchors provide UWB range measurements with a timestamp offset.
 
 ## 3 Dataset Construction (Windowing Approach)
