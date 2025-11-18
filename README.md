@@ -7,9 +7,13 @@ This project explores a deep learning–based localization system designed to es
 The system combines:
 
 -A synthetic UWB simulation environment
+
 -Sliding-window time-series preprocessing
+
 -A multi-layer LSTM neural network
+
 -Optional Kalman Filter baseline comparison
+
 -Trajectory and velocity-field visualizations
 
 The aim is to present a robust, high-resolution indoor localization method suitable for environments where GPS is unreliable or unavailable.
