@@ -127,10 +127,15 @@ Since the dataset used in this project is private and cannot be shared, the foll
 This project uses the following Python libraries:
 
 -pandas –> data processing and table operations
+
 -numpy –> numerical computations
+
 -scikit-learn –> normalization (MinMaxScaler)
+
 -joblib –> saving/loading scalers
+
 -torch (PyTorch) –> LSTM model, training, inference
+
 -matplotlib –> trajectory & velocity visualization
 
 All other imports (math, random) are Python built-in modules and require no installation.
@@ -140,10 +145,15 @@ All other imports (math, random) are Python built-in modules and require no inst
 The main script includes the complete workflow:
 
 -UWB simulation
+
 -Sliding-window dataset preparation
+
 -Feature normalization
+
 -LSTM model training
+
 -Model and scaler saving
+
 -Inference + visualization modules
 
 You can execute the entire pipeline with: python bitti_mi_dayi_tumverisetleri_denendi.py
