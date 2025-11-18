@@ -36,7 +36,9 @@ Localization is a critical capability for unmanned systems operating indoors or 
 Traditional methods such as:
 
 -Kalman Filter
+
 -IMU-only dead reckoning
+
 -GPS
 
 face limitations due to drift, noise, low sampling rates, or unavailability.
