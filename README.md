@@ -33,6 +33,7 @@ The aim is to present a robust, high-resolution indoor localization method suita
 ## 1. Project Motivation
 
 Localization is a critical capability for unmanned systems operating indoors or GPS-denied environments.
+
 Traditional methods such as:
 
 -Kalman Filter
@@ -52,11 +53,17 @@ This project demonstrates that a deep learning approach (RNN) can learn the nonl
 The environment is a 28m × 14m indoor arena, surrounded by 6 fixed UWB anchors:
 
 Anchor ID	Coordinates (m)
+
 1	(0, 0)
+
 2	(0, 14)
+
 3	(14, 14)
+
 4	(28, 14)
+
 5	(28, 0)
+
 6	(14, 0)
 
 
@@ -81,12 +88,15 @@ A simulated unmanned vehicle moves with:
 For training:
 
 -Each measurement includes: [one-hot anchor_id (6 dims), normalized distance, delta_t]
+
 -Total input dimension = 8
+
 -Output = next state: [x, y, vx, vy]
 
 Final shapes:
 
 -Input windows: (77,507 × 10 × 8)
+
 -Targets: (77,507 × 4)
 
 This makes the model learn time dependencies in the motion.
