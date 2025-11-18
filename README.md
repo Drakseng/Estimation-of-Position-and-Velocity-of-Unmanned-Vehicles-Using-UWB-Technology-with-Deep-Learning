@@ -102,6 +102,7 @@ Figure 2: Scaled Position Estimation for the “I” Trajectory
 
 
 <img width="575" height="506" alt="notion_2" src="https://github.com/user-attachments/assets/9d123b41-27dd-4ed8-bdc5-253a30ee6ab5" />
+
 Figure 3: Kalman Filter Output for the “I” Trajectory
 
 ### Scenario U (Real Data – “U” Route)
@@ -112,6 +113,7 @@ In the second scenario, real-world measurements were gathered along a **U-shaped
 Figure 4: Scaled Position Estimation for the “U” Trajectory
 
 <img width="575" height="507" alt="notion_4" src="https://github.com/user-attachments/assets/79b391ef-3648-4576-9829-429606de66db" />
+
 Figure 5: Kalman Filter Output for the “U” Trajectory
 
 ## 6. Usage (How to Run)
